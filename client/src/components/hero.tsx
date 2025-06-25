@@ -15,10 +15,10 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Accelerating <span className="text-accent">Innovation</span> & Entrepreneurship
+              Partner with Global <span className="text-accent">Innovation</span> Leaders
             </h1>
             <p className="text-xl mb-8 text-blue-100">
-              We deliver comprehensive startup-focused solutions: accelerators, workshops, bootcamps, research, and consultancy to transform your entrepreneurial vision into reality.
+              We design and deliver world-class accelerators, workshops, bootcamps, research, and consultancy programs for organizations seeking to drive innovation and entrepreneurship.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
@@ -26,7 +26,7 @@ export default function Hero() {
                 className="bg-accent text-white hover:bg-yellow-500 text-lg font-semibold px-8 py-4"
                 onClick={() => scrollToSection('contact')}
               >
-                Start Your Journey
+                Partner With Us
               </Button>
               <Button 
                 size="lg"
@@ -34,7 +34,7 @@ export default function Hero() {
                 className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-semibold px-8 py-4"
                 onClick={() => scrollToSection('about')}
               >
-                Learn More
+                Our Expertise
               </Button>
             </div>
           </div>

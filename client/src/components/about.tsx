@@ -7,36 +7,36 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Empowering the Next Generation of Entrepreneurs
+              Leading Global Innovation Program Design
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              At Startup Labs Global, we've dedicated ourselves to building the entrepreneurial ecosystem of tomorrow. With over a decade of experience and hundreds of successful ventures launched, we understand what it takes to transform innovative ideas into thriving businesses.
+              At Startup Labs Global, we partner with corporations, governments, and institutions worldwide to design and deliver world-class innovation programs. With over a decade of experience across 25+ countries, we've established ourselves as the premier partner for organizations seeking to build thriving innovation ecosystems.
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              Our team of seasoned entrepreneurs, industry experts, and innovation catalysts work together to provide comprehensive support at every stage of the startup journey.
+              Our team of seasoned program designers, innovation experts, and ecosystem builders work together to create customized solutions that drive measurable innovation outcomes for our partners.
             </p>
             
             <div className="grid grid-cols-2 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">500+</div>
-                <div className="text-gray-600">Startups Launched</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">$100M+</div>
-                <div className="text-gray-600">Funding Raised</div>
+                <div className="text-3xl font-bold text-primary mb-2">150+</div>
+                <div className="text-gray-600">Programs Delivered</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-gray-600">Expert Mentors</div>
+                <div className="text-gray-600">Partner Organizations</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary mb-2">25+</div>
                 <div className="text-gray-600">Countries Served</div>
               </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-primary mb-2">10+</div>
+                <div className="text-gray-600">Years Experience</div>
+              </div>
             </div>
 
             <Button className="bg-accent text-white hover:bg-yellow-500 font-semibold px-8 py-3">
-              Learn About Our Team
+              View Our Case Studies
             </Button>
           </div>
           <div>

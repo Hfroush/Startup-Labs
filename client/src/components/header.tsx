@@ -47,7 +47,7 @@ export default function Header() {
                 onClick={() => scrollToSection('contact')}
                 className="bg-primary text-white hover:bg-secondary"
               >
-                Get Started
+                Partner With Us
               </Button>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Header() {
                 onClick={() => scrollToSection('contact')}
                 className="w-full mt-2 bg-primary text-white hover:bg-secondary"
               >
-                Get Started
+                Partner With Us
               </Button>
             </div>
           </div>

@@ -95,9 +95,9 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ready to Start Your Journey?</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ready to Partner With Us?</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get in touch with our team to discuss how we can help accelerate your startup or innovation initiative
+            Get in touch with our team to discuss how we can design and deliver innovation programs for your organization
           </p>
         </div>
 
@@ -198,12 +198,12 @@ export default function Contact() {
                               </SelectTrigger>
                             </FormControl>
                             <SelectContent>
-                              <SelectItem value="accelerator">Startup Accelerator</SelectItem>
-                              <SelectItem value="workshops">Entrepreneurship Workshops</SelectItem>
-                              <SelectItem value="bootcamps">Innovation Bootcamps</SelectItem>
-                              <SelectItem value="research">Research & Analysis</SelectItem>
-                              <SelectItem value="consultancy">Strategic Consultancy</SelectItem>
-                              <SelectItem value="corporate">Corporate Innovation</SelectItem>
+                              <SelectItem value="accelerator">Accelerator Program Design</SelectItem>
+                              <SelectItem value="workshops">Workshop Development</SelectItem>
+                              <SelectItem value="bootcamps">Innovation Bootcamp Delivery</SelectItem>
+                              <SelectItem value="research">Market Research Services</SelectItem>
+                              <SelectItem value="consultancy">Strategic Advisory</SelectItem>
+                              <SelectItem value="corporate">Corporate Innovation Programs</SelectItem>
                             </SelectContent>
                           </Select>
                           <FormMessage />
@@ -220,7 +220,7 @@ export default function Contact() {
                           <FormControl>
                             <Textarea 
                               rows={4} 
-                              placeholder="Tell us about your project or question..."
+                              placeholder="Tell us about your organization's innovation goals and how we can help..."
                               {...field} 
                             />
                           </FormControl>

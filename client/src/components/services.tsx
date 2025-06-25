@@ -12,69 +12,69 @@ import {
 
 const services = [
   {
-    title: "Startup Accelerators",
+    title: "Accelerator Program Design",
     icon: Rocket,
     image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    description: "Intensive programs designed to rapidly scale your startup with mentorship, funding opportunities, and strategic guidance.",
+    description: "We design and deliver custom accelerator programs for corporations, governments, and institutions seeking to foster innovation ecosystems.",
     features: [
-      "12-week intensive program",
-      "Expert mentor network", 
-      "Investor connections"
+      "Custom program architecture",
+      "Mentor network development", 
+      "End-to-end program management"
     ]
   },
   {
-    title: "Entrepreneurship Workshops",
+    title: "Workshop Development",
     icon: Users,
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    description: "Interactive workshops covering essential entrepreneurial skills from business planning to pitch development.",
+    description: "Bespoke entrepreneurship workshop series designed for your organization's specific goals and target audience.",
     features: [
-      "Hands-on learning approach",
-      "Industry expert facilitators",
-      "Networking opportunities"
+      "Customized curriculum design",
+      "Expert facilitator training",
+      "Scalable delivery models"
     ]
   },
   {
-    title: "Innovation Bootcamps",
+    title: "Innovation Bootcamp Delivery",
     icon: Zap,
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    description: "Intensive immersive programs that transform ideas into viable business models through rapid prototyping.",
+    description: "Intensive innovation programs designed to drive rapid ideation and prototype development within your organization.",
     features: [
-      "5-day intensive format",
-      "Rapid prototyping methods",
-      "Real-world application"
+      "Rapid innovation methodologies",
+      "Cross-functional team building",
+      "Measurable innovation outcomes"
     ]
   },
   {
-    title: "Research & Analysis",
+    title: "Market Research Services",
     icon: TrendingUp,
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    description: "Comprehensive market research and business analysis to inform strategic decisions and validate opportunities.",
+    description: "Comprehensive research and analysis services to inform your innovation strategy and market entry decisions.",
     features: [
-      "Market opportunity analysis",
-      "Competitive landscape mapping",
-      "Data-driven insights"
+      "Startup ecosystem mapping",
+      "Innovation trend analysis",
+      "Investment landscape research"
     ]
   },
   {
-    title: "Strategic Consultancy",
+    title: "Strategic Advisory",
     icon: Handshake,
     image: "https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    description: "Personalized strategic guidance and expert consultancy to navigate complex business challenges and opportunities.",
+    description: "Expert consultancy for organizations launching innovation initiatives, venture capital funds, or startup support programs.",
     features: [
-      "Tailored strategic advice",
-      "Expert problem-solving",
-      "Ongoing support"
+      "Innovation strategy development",
+      "Program optimization",
+      "Partnership facilitation"
     ]
   },
   {
-    title: "Corporate Innovation",
+    title: "Corporate Innovation Programs",
     icon: Building,
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    description: "Help established companies foster innovation culture and develop new business models for competitive advantage.",
+    description: "End-to-end corporate innovation program development to drive internal entrepreneurship and external partnerships.",
     features: [
-      "Innovation framework design",
-      "Intrapreneurship programs",
-      "Culture transformation"
+      "Corporate venture building",
+      "Startup partnership programs",
+      "Innovation culture development"
     ]
   }
 ];
@@ -86,7 +86,7 @@ export default function Services() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive solutions to accelerate your startup journey from ideation to scale
+            Comprehensive innovation program design and delivery for organizations worldwide
           </p>
         </div>
 

@@ -3,29 +3,29 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Chen",
-    company: "CEO, TechFlow Solutions",
-    initial: "S",
-    quote: "The accelerator program was transformative. We went from idea to $2M in funding in just 6 months. The mentorship and network access were invaluable."
+    name: "Dr. James Mitchell",
+    company: "Innovation Director, Global Manufacturing Corp",
+    initial: "J",
+    quote: "Startup Labs Global designed and delivered our corporate accelerator program flawlessly. We've seen a 300% increase in internal innovation projects and secured 5 strategic partnerships with emerging startups."
   },
   {
-    name: "Marcus Rodriguez", 
-    company: "Founder, GreenTech Innovations",
+    name: "Maria Santos", 
+    company: "VP Strategy, European Development Bank",
     initial: "M",
-    quote: "The research and consultancy services helped us validate our market and refine our business model. We couldn't have succeeded without their expertise."
+    quote: "Their expertise in ecosystem development was invaluable. The innovation bootcamp series they delivered exceeded our expectations and generated 15 new venture opportunities across our portfolio."
   },
   {
-    name: "Aisha Patel",
-    company: "Co-founder, HealthStream", 
-    initial: "A",
-    quote: "The workshop series gave us the foundational knowledge we needed. From business planning to pitch development, everything was covered expertly."
+    name: "David Park",
+    company: "Chief Innovation Officer, City of Singapore", 
+    initial: "D",
+    quote: "Working with Startup Labs Global transformed our approach to public sector innovation. Their research and program design helped us launch the most successful government innovation initiative in the region."
   }
 ];
 
 const stats = [
-  { value: "95%", label: "Success Rate" },
-  { value: "6 Months", label: "Average Time to Market" },
-  { value: "3x", label: "Growth Acceleration" }
+  { value: "98%", label: "Client Satisfaction" },
+  { value: "3 Months", label: "Average Program Launch" },
+  { value: "5x", label: "Innovation ROI Increase" }
 ];
 
 export default function SuccessStories() {
@@ -33,9 +33,9 @@ export default function SuccessStories() {
     <section id="success-stories" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Success Stories</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Partner Success Stories</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Real results from entrepreneurs who transformed their visions into successful businesses with our support
+            Real results from organizations that have partnered with us to build successful innovation programs and drive ecosystem growth
           </p>
         </div>
 

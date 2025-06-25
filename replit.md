@@ -107,3 +107,13 @@ Changelog:
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+
+## Recent Changes
+
+June 25, 2025:
+- Updated landing page messaging from startup-focused to B2B/partner-focused
+- Hero section now targets corporations, governments, and institutions
+- Services reframed as program design and delivery offerings
+- Testimonials updated to feature organizational partners rather than individual entrepreneurs
+- Contact form and all CTAs updated to "Partner With Us" messaging
+- SEO metadata updated to reflect B2B positioning
