@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logoPath from "@assets/STARTUP LABS LOGO 2024_1750864096095.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,11 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-primary">Startup Labs Global</h1>
+              <img 
+                src={logoPath} 
+                alt="Startup Labs Global" 
+                className="h-10 w-auto"
+              />
             </div>
           </div>
           

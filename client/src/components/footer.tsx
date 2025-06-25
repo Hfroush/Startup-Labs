@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import logoPath from "@assets/STARTUP LABS LOGO 2024_1750864096095.png";
 
 const footerLinks = {
   services: [
@@ -37,7 +38,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Startup Labs Global</h3>
+            <img 
+              src={logoPath} 
+              alt="Startup Labs Global" 
+              className="h-12 w-auto mb-4 brightness-0 invert"
+            />
             <p className="text-gray-400 mb-6">
               Accelerating innovation and entrepreneurship worldwide through comprehensive startup support services.
             </p>
