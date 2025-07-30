@@ -4,7 +4,6 @@ import {
   Rocket, 
   Users, 
   Zap, 
-  TrendingUp, 
   Handshake, 
   Building,
   Check
@@ -42,17 +41,6 @@ const services = [
       "Rapid innovation methodologies",
       "Cross-functional team building",
       "Measurable innovation outcomes"
-    ]
-  },
-  {
-    title: "Market Research Services",
-    icon: TrendingUp,
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    description: "Comprehensive research and analysis services to inform your innovation strategy and market entry decisions.",
-    features: [
-      "Startup ecosystem mapping",
-      "Innovation trend analysis",
-      "Investment landscape research"
     ]
   },
   {

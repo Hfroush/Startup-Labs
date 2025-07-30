@@ -201,7 +201,6 @@ export default function Contact() {
                               <SelectItem value="accelerator">Accelerator Program Design</SelectItem>
                               <SelectItem value="workshops">Workshop Development</SelectItem>
                               <SelectItem value="bootcamps">Innovation Bootcamp Delivery</SelectItem>
-                              <SelectItem value="research">Market Research Services</SelectItem>
                               <SelectItem value="consultancy">Strategic Advisory</SelectItem>
                               <SelectItem value="corporate">Corporate Innovation Programs</SelectItem>
                             </SelectContent>
