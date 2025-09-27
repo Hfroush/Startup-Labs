@@ -34,7 +34,7 @@ export default function About() {
                 className="text-center"
               >
                 <div className="text-3xl font-bold text-primary mb-2">
-                  <CountUp to={20} suffix="+" duration={1200} delay={0} />
+                  <CountUp to={50} suffix="+" duration={1200} delay={0} />
                 </div>
                 <div className="text-gray-600">Programs Delivered</div>
               </motion.div>
@@ -46,7 +46,7 @@ export default function About() {
                 className="text-center"
               >
                 <div className="text-3xl font-bold text-primary mb-2">
-                  <CountUp to={50} suffix="+" duration={1200} delay={100} />
+                  <CountUp to={20} suffix="+" duration={1200} delay={100} />
                 </div>
                 <div className="text-gray-600">Partner Organizations</div>
               </motion.div>
