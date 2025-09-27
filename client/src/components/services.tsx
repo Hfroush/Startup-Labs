@@ -8,6 +8,7 @@ import {
   Zap, 
   Handshake, 
   Building,
+  TrendingUp,
   Check
 } from "lucide-react";
 
@@ -65,6 +66,17 @@ const services = [
       "Corporate venture building",
       "Startup partnership programs",
       "Innovation culture development"
+    ]
+  },
+  {
+    title: "Founder Readiness Advisory",
+    icon: TrendingUp,
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    description: "Comprehensive advisory services to prepare founders and startup teams for successful fundraising and investor engagement.",
+    features: [
+      "Pitch Deck Mastery",
+      "Investor Readiness",
+      "Global Fundraising Insights"
     ]
   }
 ];
