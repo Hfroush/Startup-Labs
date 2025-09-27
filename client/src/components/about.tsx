@@ -76,17 +76,6 @@ export default function About() {
               </motion.div>
             </Reveal>
 
-            <Reveal delay={0.6} y={20}>
-              <motion.div
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Button className="bg-accent text-white hover:bg-yellow-500 font-semibold px-8 py-3">
-                  View Our Case Studies
-                </Button>
-              </motion.div>
-            </Reveal>
           </div>
           <div>
             <motion.div
