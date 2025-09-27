@@ -41,20 +41,7 @@ export default function Hero() {
                     Partner With Us
                   </Button>
                 </motion.div>
-                <motion.div
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <Button 
-                    size="lg"
-                    variant="outline"
-                    className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-semibold px-8 py-4"
-                    onClick={() => scrollToSection('about')}
-                  >
-                    Our Expertise
-                  </Button>
-                </motion.div>
+                
               </div>
             </Reveal>
           </div>
