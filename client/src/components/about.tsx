@@ -34,7 +34,7 @@ export default function About() {
                 className="text-center"
               >
                 <div className="text-3xl font-bold text-primary mb-2">
-                  <CountUp to={150} suffix="+" duration={1200} delay={0} />
+                  <CountUp to={50} suffix="+" duration={1200} delay={0} />
                 </div>
                 <div className="text-gray-600">Programs Delivered</div>
               </motion.div>
