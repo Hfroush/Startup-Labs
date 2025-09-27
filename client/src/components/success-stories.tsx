@@ -6,22 +6,40 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Dr. James Mitchell",
-    company: "Innovation Director, Global Manufacturing Corp",
-    initial: "J",
-    quote: "Startup Labs Global designed and delivered our corporate accelerator program flawlessly. We've seen a 300% increase in internal innovation projects and secured 5 strategic partnerships with emerging startups."
+    name: "Andrea De Giorgio",
+    company: "CEO & Co-founder, eWorking",
+    initial: "AD",
+    quote: "After a few workshops things are beginning to fall into place. We've had a few good team sessions over the last few days and have made progress with stakeholder mapping and logic modelling for product, marketing & sales"
   },
   {
-    name: "Maria Santos", 
-    company: "VP Strategy, European Development Bank",
-    initial: "M",
-    quote: "Their expertise in ecosystem development was invaluable. The innovation bootcamp series they delivered exceeded our expectations and generated 15 new venture opportunities across our portfolio."
+    name: "Dan Rosenberg", 
+    company: "Founder, LinkyThinks",
+    initial: "DR",
+    quote: "We received HUGE value - we had a full team/board meeting yesterday to see how we can implement changes to our product and marketing strategy using the stakeholder mapping and research questioning"
   },
   {
-    name: "David Park",
-    company: "Chief Innovation Officer, City of Singapore", 
-    initial: "D",
-    quote: "Working with Startup Labs Global transformed our approach to public sector innovation. Their research and program design helped us launch the most successful government innovation initiative in the region."
+    name: "Arum Tufan",
+    company: "Founder, Happy Student", 
+    initial: "AT",
+    quote: "UCL EdTech Labs is the bridge between UCL and the EdTech ecosystem in London, Europe and beyond. The accelerator has helped us reach many key individuals, and it has been the root reason for our growth for the past year."
+  },
+  {
+    name: "Arthur Vincent",
+    company: "Founder/Director, Planet Citizens",
+    initial: "AV",
+    quote: "I learned the value of feedback, and the importance of compiling and using research data to guide decision-making."
+  },
+  {
+    name: "Clare Daly",
+    company: "Developer of Potential, Dynamigo",
+    initial: "CD",
+    quote: "The programme taught me how to apply research methods, use the innovation spiral effectively, and structure a compelling value proposition."
+  },
+  {
+    name: "Kate Bodrova",
+    company: "Co-Founder and CEO, Amazy.uk",
+    initial: "KB",
+    quote: "I now approach product development with a research-backed, data-driven mindset—using evidence to reinforce value and inform the development of new features."
   }
 ];
 
