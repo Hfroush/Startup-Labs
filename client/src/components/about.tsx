@@ -70,7 +70,7 @@ export default function About() {
                 className="text-center"
               >
                 <div className="text-3xl font-bold text-primary mb-2">
-                  <CountUp to={10} suffix="+" duration={1200} delay={300} />
+                  <CountUp to={750} suffix="+" duration={1200} delay={300} />
                 </div>
                 <div className="text-gray-600">Startups Supported</div>
               </motion.div>
