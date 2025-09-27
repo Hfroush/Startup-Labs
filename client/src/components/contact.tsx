@@ -19,9 +19,9 @@ const contactInfo = [
     title: "Global Headquarters",
     content: (
       <>
-        123 Innovation Drive<br />
-        San Francisco, CA 94105<br />
-        United States
+        IDEALondon<br />
+        69 Wilson Street<br />
+        London EC2A 2BB
       </>
     )
   },
