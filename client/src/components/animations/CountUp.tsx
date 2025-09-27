@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
+import { useReducedMotion } from '@/hooks/use-reduced-motion'
 
 interface CountUpProps {
   to: number
@@ -24,6 +25,7 @@ export default function CountUp({
   const [hasAnimated, setHasAnimated] = useState(false)
   const startTimeRef = useRef<number>()
   const animationIdRef = useRef<number>()
+  const prefersReducedMotion = useReducedMotion()
 
   const animate = (timestamp: number) => {
     if (!startTimeRef.current) {
@@ -51,6 +53,13 @@ export default function CountUp({
   const startAnimation = () => {
     if (hasAnimated) return
     setHasAnimated(true)
+    
+    // For reduced motion, show final value immediately
+    if (prefersReducedMotion) {
+      setCount(to)
+      return
+    }
+    
     animationIdRef.current = requestAnimationFrame(animate)
   }
 
@@ -77,7 +86,7 @@ export default function CountUp({
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.5 }}
       onViewportEnter={startAnimation}
-      transition={{ duration: 0.3, delay }}
+      transition={{ duration: 0.3, delay: prefersReducedMotion ? delay * 0.5 : delay }}
     >
       {prefix}{formatNumber(count)}{suffix}
     </motion.span>
