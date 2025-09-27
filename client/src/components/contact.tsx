@@ -26,6 +26,17 @@ const contactInfo = [
     )
   },
   {
+    icon: MapPin,
+    title: "Dubai Headquarters",
+    content: (
+      <>
+        Innovation One - Level One<br />
+        DIFC<br />
+        Dubai
+      </>
+    )
+  },
+  {
     icon: Mail,
     title: "Email", 
     content: "hello@startuplabsglobal.com"
