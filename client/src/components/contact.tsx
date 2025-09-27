@@ -11,7 +11,7 @@ import { useMutation } from "@tanstack/react-query";
 import { insertContactInquirySchema, type InsertContactInquiry } from "@shared/schema";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Mail, Clock } from "lucide-react";
 
 const contactInfo = [
   {
@@ -24,11 +24,6 @@ const contactInfo = [
         London EC2A 2BB
       </>
     )
-  },
-  {
-    icon: Phone,
-    title: "Phone",
-    content: "+1 (555) 123-4567"
   },
   {
     icon: Mail,
