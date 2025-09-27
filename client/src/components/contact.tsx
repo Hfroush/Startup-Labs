@@ -39,7 +39,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email", 
-    content: "hello@startuplabsglobal.com"
+    content: "hello@startup-labs.org"
   },
   {
     icon: Clock,
