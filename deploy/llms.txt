@@ -1,11 +1,11 @@
 # Startup Labs Global
 
-> Startup Labs Global designs and delivers accelerators, workshops and bootcamps for corporations, governments and institutions. Founded in 2014, it has run 50+ programmes with 20+ partner organisations, reaching 30+ countries and supporting 750+ startups.
+> Startup Labs Global designs and delivers accelerators, workshops and bootcamps for corporations, governments and institutions. Founded in 2021, it has run 50+ programmes with 20+ partner organisations, reaching 30+ countries and supporting 750+ startups.
 
 ## Pages
 
 - [Home](https://www.startup-labs.org/): what Startup Labs does, its six services, results and partner testimonials
-- [About](https://www.startup-labs.org/about): history since 2014, approach and operating principle
+- [About](https://www.startup-labs.org/about): history since 2021, approach and operating principle
 - [Contact](https://www.startup-labs.org/contact): how to start an engagement; replies within a week
 
 ## Services
